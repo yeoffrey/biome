@@ -1516,6 +1516,10 @@ export interface Correctness {
  */
 export interface Nursery {
 	/**
+	 * Succinct description of the rule.
+	 */
+	lintSvelteRequireStoresInit?: RuleConfiguration_for_Null;
+	/**
 	 * Disallow await inside loops.
 	 */
 	noAwaitInLoop?: RuleConfiguration_for_Null;
@@ -3472,6 +3476,7 @@ export type Category =
 	| "lint/correctness/useValidTypeof"
 	| "lint/correctness/useYield"
 	| "lint/nursery/colorNoInvalidHex"
+	| "lint/nursery/lintSvelteRequireStoresInit"
 	| "lint/nursery/noAwaitInLoop"
 	| "lint/nursery/noBitwiseOperators"
 	| "lint/nursery/noColorInvalidHex"

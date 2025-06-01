@@ -4,6 +4,7 @@
 
 use crate::assist;
 use crate::lint;
+pub type LintSvelteRequireStoresInit = < lint :: nursery :: lint_svelte_require_stores_init :: LintSvelteRequireStoresInit as biome_analyze :: Rule > :: Options ;
 pub type NoAccessKey = <lint::a11y::no_access_key::NoAccessKey as biome_analyze::Rule>::Options;
 pub type NoAccumulatingSpread = < lint :: performance :: no_accumulating_spread :: NoAccumulatingSpread as biome_analyze :: Rule > :: Options ;
 pub type NoAdjacentSpacesInRegex = < lint :: complexity :: no_adjacent_spaces_in_regex :: NoAdjacentSpacesInRegex as biome_analyze :: Rule > :: Options ;

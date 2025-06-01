@@ -146,6 +146,7 @@ define_categories! {
     "lint/correctness/useValidTypeof": "https://biomejs.dev/linter/rules/use-valid-typeof",
     "lint/correctness/useYield": "https://biomejs.dev/linter/rules/use-yield",
     "lint/nursery/colorNoInvalidHex": "https://biomejs.dev/linter/rules/color-no-invalid-hex",
+    "lint/nursery/lintSvelteRequireStoresInit": "https://biomejs.dev/linter/rules/lint-svelte-require-stores-init",
     "lint/nursery/noAwaitInLoop": "https://biomejs.dev/linter/rules/no-await-in-loop",
     "lint/nursery/noBitwiseOperators": "https://biomejs.dev/linter/rules/no-bitwise-operators",
     "lint/nursery/noColorInvalidHex": "https://biomejs.dev/linter/rules/no-color-invalid-hex",

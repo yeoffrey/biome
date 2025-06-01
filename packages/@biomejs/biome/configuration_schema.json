@@ -2695,6 +2695,13 @@
 			"description": "A list of rules that belong to this group",
 			"type": "object",
 			"properties": {
+				"lintSvelteRequireStoresInit": {
+					"description": "Succinct description of the rule.",
+					"anyOf": [
+						{ "$ref": "#/definitions/RuleConfiguration" },
+						{ "type": "null" }
+					]
+				},
 				"noAwaitInLoop": {
 					"description": "Disallow await inside loops.",
 					"anyOf": [
