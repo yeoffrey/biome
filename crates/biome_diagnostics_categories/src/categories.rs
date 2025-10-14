@@ -176,6 +176,7 @@ define_categories! {
     "lint/nursery/noReactForwardRef": "https://biomejs.dev/linter/rules/no-react-forward-ref",
     "lint/nursery/noSecrets": "https://biomejs.dev/linter/rules/no-secrets",
     "lint/nursery/noShadow": "https://biomejs.dev/linter/rules/no-shadow",
+    "lint/nursery/noSvelteUninitializedStore": "https://biomejs.dev/linter/rules/no-svelte-uninitialized-store",
     "lint/nursery/noUnnecessaryConditions": "https://biomejs.dev/linter/rules/no-unnecessary-conditions",
     "lint/nursery/noUnresolvedImports": "https://biomejs.dev/linter/rules/no-unresolved-imports",
     "lint/nursery/noUnusedExpressions": "https://biomejs.dev/linter/rules/no-unused-expressions",
